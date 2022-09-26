@@ -4,16 +4,18 @@
 
 ![preview](./.github/preview.png)
 
-## Tecnologias
+[Acesse aqui](https://prdsilva80.github.io/pagina-de-navegacao---meu-website/)
+
+## 🛠️ Tecnologias
 
 - HTML
 - CSS
 - JAVASCRIPT
 
-## O que aprendi
+## 👨‍🎓 O que aprendi
 
 - Fiz um uso maior do CSS, aprimorando e entendendo o seu uso
 - Aprendi a formatar o texto no html, com o uso de tags
 
-## Contato
+## 🔗 Contato
 - probertos717@gmail.com
