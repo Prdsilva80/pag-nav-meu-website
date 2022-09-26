@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css"/>
+            <title>Navegação</title>
+        </head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <h1 class="logo"><a href="#">Meu Website</a></h1>
+            <ul>
+                <li><a href="#" class="current">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Estudos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="container">
+            <h1>Bem-vindo ao Meu Website</h1>
+            <p>Que bom que você esta aqui! É uma honra pra mim saber que você se interessou em acessar esse projeto.
+                Desça a barra de rolagem, veja mais, e caso tenha alguma sugestão para dar, fique à vontade.
+            </p>
+        </div>
+    </div>
+
+    <section class="container Sobre">
+        <h2>Sobre mim</h2>
+        <p>Meu nome é <strong>Paulo</strong>. Estou fazendo uma transição de carreira.
+            Estudando muito para aprender a usar essas ferramentas, e me tornar um Desenvolvedor Front-End</p>
+            <p>Tenho muito interesse em tecnologias, por isso busco aprimorar o que aprendi até aqui.</p>
+
+        <h3>Contato</h3>
+        <p>Por favor, entre em contato comigo para saber mais sobre essa minha recente jornada</p>
+        <p>email: probertos717@gmail.com</p>
+    </section>
+
+    <script>
+        const nav = document.querySelector(".nav");
+
+        const fixNav = () => {
+            if(window.scrollY > nav.offsetHeigth + 150) nav.classList.add("active");
+            else nav.classList.remove("active");
+        };
+
+        window.addEventListener("scoll", fixNav);
+    </script>
+    
+</body>
+</html>
