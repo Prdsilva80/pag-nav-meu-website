@@ -42,7 +42,7 @@ body {
 }
 
 .nav a {
-    color: #c0392b;
+    color: white;
     text-decoration: none;
     padding: 7px 15px;
     transition: all ease-out;
@@ -63,7 +63,7 @@ body {
 
 .nav a.corrent,
 .nav a:hover {
-    color: #c0392b;
+    color: white;
     font-weight: bold;
 }
 
